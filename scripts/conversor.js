@@ -8,6 +8,7 @@ var binario;
 binario = decimal.toString(2); 
 console.log('El numero en binario es: ');
 console.log(binario);
-document.getElementById('resultadoBinario').innerHTML = binario;
+
+document.getElementById('resultado').innerHTML = binario;
 }
 window.onload = resultadoBinario; 
