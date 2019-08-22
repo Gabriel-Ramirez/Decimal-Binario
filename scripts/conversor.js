@@ -9,6 +9,6 @@ binario = decimal.toString(2);
 console.log('El numero en binario es: ');
 console.log(binario);
 
-document.getElementById('resultado').innerHTML = binario;
+document.getElementById('resultadoBinario').innerHTML = binario;
 }
 window.onload = resultadoBinario; 

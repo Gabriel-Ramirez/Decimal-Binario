@@ -1,4 +1,5 @@
 
+
 .cuerpo {
     margin-left: 2%;
     margin-right: 2%;
@@ -13,4 +14,8 @@
 .convertir {
 margin-left: 2%;
 
+}
+
+body {
+  background-image: url(../images/dbz.jpg);   
 }
