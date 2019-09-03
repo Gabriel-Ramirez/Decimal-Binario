@@ -8,13 +8,34 @@
     <title>Decimal a Binario</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b8213d8561.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 <body>
-    <div class="text-center encabezado">
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Conversor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                    <a class="nav-link" href="index.html">Decimal a Binario</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link bange" href="/pages/Dec_Oc.html">Decimal a Octal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/Dec_hex.html">Decimal a Hexadecimal</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <div class="text-center encabezado mt-4">
     <h1 class="h3">Decimal a Binario</h1>        
     </div>
-    <form class="cuerpo" id="formulario">
+    <form class="cuerpo" id="formulario" onsubmit="return false">
         <div class="form-group">
           <label for="numeroDecimal">Decimal</label>
           <input type="number" class="form-control" id="numeroDecimal" placeholder="Numero base 10">
@@ -24,10 +45,40 @@
        </div>
     </form>
     <div class="convertir">
-    <button onclick="convertir()" class="btn btn-primary">Convertir</button>
+    <button type="button" id="c" onclick="convertir(2);" class="btn btn-primary" accesskey=”1″>Convertir</button>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<footer class="page-footer font-small cyan darken-3 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 py-5">
+                <div class="mb-1 flex-center">
+                    <a class="fb-ic" href="https://www.facebook.com/Gabriel.Ramirez.017">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 ml-3 fa-2x"></i>
+                    </a>
+                    <a class="tw-ic" href="https://twitter.com/GabrielRmzzz">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="li-ic" href="https://www.linkedin.com/in/gabriel-ramirez-78a520ba/">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+ 
+                  <a class="ins-ic" href="https://www.instagram.com/gabrielramirez17/">
+                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright
+    </div>
+
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="scripts/conversor.js"></script>
 </body>
 </html>
