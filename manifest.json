@@ -2,7 +2,7 @@
     "name": "Coversor Binario",
     "short_name": "Conversor Binario",
     "description": "Bienvenidos al conversor binario, aca podras convertir numeros a diferentes bases",
-    "background_color": "#2B2B2B",
+    "background_color": "#3A3A3A",
     "theme_color": "#3A3A3A",
     "orientation": "portrait",
     "display": "standalone",
