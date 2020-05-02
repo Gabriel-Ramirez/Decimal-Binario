@@ -7,7 +7,9 @@ const CACHE_NAME = 'Conversor Binario',
         './css/style.css',
         './scripts/conversor.js',
         './script.js',
-        './favicon.png'
+        './images/dbz.jpg',
+        './favicon.png',
+        './pages/*'
     ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos

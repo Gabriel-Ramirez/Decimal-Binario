@@ -1,21 +1,22 @@
 html {
-  min-height: 100%;
-  position: relative;
-}
-body {
-  margin: 0;
-  margin-bottom: 40px;
-}
-footer {
-  position: absolute;
-  align-items: center;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  color: white;
-  
+    min-height: 100%;
+    position: relative;
 }
 
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    background-color: #FF0000;
+}
+
+footer {
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
 
 .cuerpo {
     margin-left: 2%;
@@ -23,22 +24,21 @@ footer {
     font-size: large;
     color: dodgerblue;
 }
+
 .encabezado {
     margin-top: 2%;
     color: dodgerblue;
 }
 
 .convertir {
-margin-left: 2%;
-
+    margin-left: 2%;
 }
 
 body {
-  background-image: url(../images/dbz.jpg);   
-} 
-
-nav li {
-color: white;
-
+    /* background-color: #212F3D !important; */
+    background-image: url(../images/dbz.jpg);
 }
 
+nav li {
+    color: white;
+}
