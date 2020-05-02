@@ -8,8 +8,8 @@ $(document).ready(function() {
 
 
 function convertir(tipo) {
-    let decimal = parseInt(document.getElementById("numeroDecimal").value);
-    let valor;
+    var decimal = parseInt(document.getElementById("numeroDecimal").value);
+    var valor;
     if (tipo != "10") {
         valor = decimal.toString(tipo);
     }
