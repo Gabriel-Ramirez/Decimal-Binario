@@ -5,11 +5,16 @@ const CACHE_NAME = 'Conversor Binario',
         'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
         'https://kit.fontawesome.com/b8213d8561.js',
         './css/style.css',
+        'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
         './scripts/conversor.js',
         './script.js',
         './images/dbz.jpg',
         './favicon.png',
-        './pages/*'
+        './pages/*',
+        './index.html'
+
     ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
