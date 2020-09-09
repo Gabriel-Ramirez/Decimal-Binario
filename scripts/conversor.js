@@ -18,6 +18,7 @@ function convertir(tipo) {
         valor = parseInt(decimal, 2);
         document.getElementById('resultadoBinario').innerHTML = `<h6>Resultado: <h6>${valor}<br><br>`;
     }
+    
 
 }
 window.onload = resultadoBinario;
