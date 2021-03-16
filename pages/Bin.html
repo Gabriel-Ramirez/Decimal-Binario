@@ -3,62 +3,58 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Convertir numeros en Decimal a Binario">
-    <title>Decimal a Octal</title>
+    <title>Binario</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container ml-auto">
-            <a class="navbar-brand" href="../index.html">Conversor</a>
+            <a class="navbar-brand" href="./index.html">Conversor</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Decimal a Binario</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./Dec_Oc.html">Decimal a Octal<span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./index.html">Dec a Bin, Oct, Hex</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="./Dec_hex.html">Decimal a Hexadecimal</a>
+                        <a class="nav-link" href="./pages/Oct.html">Oct a Bin, Dec, Hex<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Bin_dec.html">Binario a Decimal</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./pages/Hex.html">Hex a Bin, Dec, Oct</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Bin_hex.html">Binario a Decimal</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./pages/Bin.html">Bin a Oct, Dec, Hex</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <div class="text-center encabezado">
-        <h1 class="h3">Decimal a Octal</h1>
+        <h1 class="h3">Binario a Octal, Decimal y Hexadecimal</h1>
     </div>
     <form class="cuerpo" id="formulario" onsubmit="return false">
         <div class="form-group">
-            <label for="numeroDecimal">Decimal</label>
-            <input type="number" class="form-control" id="numeroDecimal" placeholder="Numero base 10">
+            <label for="numeroDecimal">Binario</label>
+            <input type="number" class="form-control" id="numeroDecimal" placeholder="Numero base 2">
         </div>
         <div id="resultadoBinario">
             <p></p>
         </div>
     </form>
     <div class="convertir">
-        <button id="c" onclick="convertir(8)" class="btn btn-primary">Convertir</button>
+        <button id="c" onclick="convertir(2)" class="btn btn-primary">Convertir</button>
     </div>
+
 
     <footer class="page-footer font-small cyan darken-3 text-center">
         <div class="container">
@@ -85,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright text-center py-3">© 2019 Copyright
+        <div class="footer-copyright text-center py-3">© 2020 Copyright
         </div>
 
     </footer>

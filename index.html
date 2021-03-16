@@ -17,7 +17,7 @@
     <link rel="manifest" href="./manifest.json">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
-    <title>Decimal a Binario</title>
+    <title>Decimal</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b8213d8561.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -34,23 +34,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Decimal a Binario</a>
+                        <a class="nav-link" href="./index.html">Dec a Bin, Oct, Hex</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/Dec_Oc.html">Decimal a Octal<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./pages/Oct.html">Oct a Bin, Dec, Hex<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="./pages/Dec_hex.html">Decimal a Hexadecimal</a>
+                        <a class="nav-link" href="./pages/Hex.html">Hex a Bin, Dec, Oct</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/Bin_dec.html">Binario a Decimal</a>
+                        <a class="nav-link" href="./pages/Bin.html">Bin a Oct, Dec, Hex</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="text-center encabezado mt-4">
-        <h1 class="h3">Decimal a Binario</h1>
+        <h1 class="h3">Decimal a Binario, Octal y Hexadecimal</h1>
     </div>
     <form class="cuerpo" id="formulario" onsubmit="return false">
         <div class="form-group">
@@ -62,7 +63,7 @@
         </div>
     </form>
     <div class="convertir">
-        <button type="button" id="c" onclick="convertir(2);" class="btn btn-primary" accesskey=”1″>Convertir</button>
+        <button type="button" id="c" onclick="convertir(10);" class="btn btn-primary" accesskey=”1″>Convertir</button>
     </div>
 
     <footer class="page-footer font-small cyan darken-3 text-center">
